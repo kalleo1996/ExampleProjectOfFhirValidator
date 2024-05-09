@@ -1,0 +1,283 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "ako1019776",
+    "contained": [
+      {
+        "resourceType": "Task",
+        "id": "58ec9a51-6183-4b28-b215-ec642ee16fd6",
+        "extension": [
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupIdExtension",
+            "valueString": "22"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupNameExtension",
+            "valueString": "Kirurgisk skrivestue"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeIdExtension",
+            "valueString": "5"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeNameExtension",
+            "valueString": "Dokumenter til utskrift"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-DisplayFromExtension",
+            "valueDateTime": "2999-12-31T00:00:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://dips.no/fhir/namingsystem/dips/WorkTaskId",
+            "value": "1029330"
+          }
+        ],
+        "status": "ready",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.4.642.3.1396",
+              "code": "fulfill",
+              "display": "Fulfill the focal request"
+            }
+          ]
+        }
+      },
+      {
+        "resourceType": "Task",
+        "id": "f4b175f6-a44e-47d5-952e-596a44d04f1c",
+        "extension": [
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupIdExtension",
+            "valueString": "1"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupNameExtension",
+            "valueString": "Arbeidsflyt - udefinert arbeidsgruppe"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeIdExtension",
+            "valueString": "29"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeNameExtension",
+            "valueString": "Diktater til ferdigstilling"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://dips.no/fhir/namingsystem/dips/WorkTaskId",
+            "value": "1029332"
+          }
+        ],
+        "status": "ready",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.4.642.3.1396",
+              "code": "fulfill",
+              "display": "Fulfill the focal request"
+            }
+          ]
+        }
+      },
+      {
+        "resourceType": "Task",
+        "id": "1377868c-ecd8-48e0-8a70-898775e9485d",
+        "extension": [
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupIdExtension",
+            "valueString": "22"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-WorkGroupNameExtension",
+            "valueString": "Kirurgisk skrivestue"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeIdExtension",
+            "valueString": "6"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-TaskTypeNameExtension",
+            "valueString": "Diktater til skriving"
+          },
+          {
+            "url": "http://dips.no/fhir/structuredefintion/DIPSDocumentReferenceWorkFlow-DisplayFromExtension",
+            "valueDateTime": "2999-12-31T00:00:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://dips.no/fhir/namingsystem/dips/WorkTaskId",
+            "value": "1029334"
+          }
+        ],
+        "status": "ready",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "2.16.840.1.113883.4.642.3.1396",
+              "code": "fulfill",
+              "display": "Fulfill the focal request"
+            }
+          ]
+        }
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceEventTime",
+        "valueDateTime": "2020-09-11T03:47:34+00:00",
+        "_valueDateTime": { "id": "Event_Time" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceLastChangedBy",
+        "valueString": "Linkdips (Testplan Bas-Team), Max",
+        "_valueString": { "id": "Last_Changed_By" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceDocumentFormat",
+        "valueString": "0",
+        "_valueString": { "id": "Document_Format" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceCreatedBy",
+        "valueString": "Linkdips (Testplan Bas-Team), Max",
+        "_valueString": { "id": "Created_By" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceHospitalStayId",
+        "valueString": "1000249",
+        "_valueString": { "id": "HospitalStay_Id" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceWard",
+        "valueReference": {
+          "reference": "Organization/ahl29",
+          "identifier": {
+            "system": "urn:oid:1.3.6.1.4.1.9038.70.4",
+            "value": "29"
+          }
+        }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceSection",
+        "valueReference": {
+          "reference": "Organization/aju21",
+          "identifier": {
+            "system": "urn:oid:1.3.6.1.4.1.9038.70.5",
+            "value": "21"
+          }
+        }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceEPRGroup",
+        "valueString": "59",
+        "_valueString": { "id": "EPR_Group" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceDictatedTime",
+        "valueDateTime": "2022-02-23T03:47:34+00:00",
+        "_valueDateTime": { "id": "DictatedTime" }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceDictatedDuration",
+        "valueQuantity": {
+          "id": "DictatedDuration",
+          "value": 18,
+          "unit": "s",
+          "system": "http://unitsofmeasure.org",
+          "code": "s"
+        }
+      },
+      {
+        "url": "http://dips.no/fhir/R4/StructureDefinition/DIPSDocumentReferenceLastUpdatedTime",
+        "valueDateTime": "2023-05-15T00:42:06+00:00",
+        "_valueDateTime": { "id": "LastUpdated_Time" }
+      }
+    ],
+    "status": "current",
+    "docStatus": "preliminary",
+    "type": {
+      "coding": [
+        {
+          "system": "http://dips.no/fhir/namingsystem/dips-documenttypeid",
+          "code": "1050",
+          "display": "Daglig notat"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/cdp1000239",
+      "identifier": {
+        "system": "http://dips.no/fhir/namingsystem/dips-patientid",
+        "value": "1000239"
+      }
+    },
+    "date": "2023-05-15T00:42:06+00:00",
+    "author": [
+      {
+        "reference": "PractitionerRole/agb113",
+        "identifier": {
+          "system": "urn:oid:1.3.6.1.4.1.9038.51.1",
+          "value": "113"
+        }
+      }
+    ],
+    "custodian": {
+      "reference": "Organization/afa22",
+      "identifier": {
+        "system": "http://dips.no/fhir/namingsystem/dips-organizationid",
+        "value": "22"
+      }
+    },
+    "description": "Test R4 Dictation 1",
+    "content": [
+      {
+        "attachment": {
+          "contentType": "application/pdf",
+          "url": "https://sl-fl-srv05.creativesoftware.com/DIPS-WebAPI/HL7/FHIR-R4/Binary/ako1019776"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "audio/x-hx-aac-adts",
+          "url": "https://sl-fl-srv05.creativesoftware.com/DIPS-WebAPI/HL7/FHIR-R4/Binary?_id=ako1019776&contentType=audio/x-hx-aac-adts"
+        }
+      },
+      {
+        "attachment": {
+          "contentType": "application/rtf",
+          "url": "https://sl-fl-srv05.creativesoftware.com/DIPS-WebAPI/HL7/FHIR-R4/Binary?_id=ako1019776&contentType=application/rtf"
+        }
+      }
+    ],
+    "context": {
+      "encounter": [
+        {
+          "reference": "Encounter/agy1000245",
+          "identifier": {
+            "system": "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid",
+            "value": "1000245"
+          }
+        }
+      ],
+      "related": [
+        {
+          "reference": "Appointment/ahi1000249",
+          "identifier": {
+            "system": "urn:oid:1.3.6.1.4.1.9038.41",
+            "value": "1000249"
+          }
+        },
+
+        { "reference": "#58ec9a51-6183-4b28-b215-ec642ee16fd6" },
+        { "reference": "#f4b175f6-a44e-47d5-952e-596a44d04f1c" },
+        { "reference": "#1377868c-ecd8-48e0-8a70-898775e9485d" }
+      ]
+    }
+  }
